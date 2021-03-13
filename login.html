@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Style-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="imagenes/contenido/Logo.jpg"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <!--Header-->
+    <section class="bar-container">
+      <div class="bar">
+        <form action class="search d-inline-flex" method="">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="links">
+          <a href="index.html" class="account btn btn-outline-success">Home</a>
+          <a href="login.html"
+            ><i class="fas fa-user btn btn-outline-success"></i
+          ></a>
+          <a href="#">
+            <i class="fas fa-shopping-basket btn btn-outline-success"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Menu-->
+    <section class="navbar sticky-top">
+      <ul>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="http://untadoendetergente.blogspot.com/" target="_blank">Fanzines</a></li>
+        <li><a href="index.html">Shop</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </section>
+    <div class="form-container">
+      <form action="/Server/" method="POST" class="speaker-form">
+        <div class="form-row">
+          <label for="">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ejemplo@mail.com"
+          />
+          <div class="pass-row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label"
+                >Password
+                <a href="reset.html" class="password"
+                  >Forgot your password?</a
+                ></label
+              >
+            </div>
+            <div class="col-auto">
+              <input
+                type="password"
+                id="inputPassword6"
+                class="form-control"
+                aria-describedby="passwordHelpInline"
+              />
+            </div>
+            <div class="col-auto">
+              <span id="passwordHelpInline" class="form-text"> </span>
+            </div>
+          </div>
+
+          <label for="check" class="newaccount"
+            >New Customer? <a href="newaccount.html">Sign up here</a></label
+          >
+
+          <button type="submit">Sign In</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
