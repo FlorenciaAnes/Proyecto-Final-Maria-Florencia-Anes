@@ -179,12 +179,11 @@ img {
   justify-content: space-around;
   height: 100%;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 .container-iframe {
   position: relative;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .container-iframe .title {
@@ -200,8 +199,7 @@ img {
   align-items: center;
   margin-top: 10px;
   background-color:#c1e6e2;
-  
-  
+    
  
 }
 .footer-link-container a {
