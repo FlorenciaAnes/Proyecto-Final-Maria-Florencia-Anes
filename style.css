@@ -37,12 +37,12 @@
 .logo-header a {
   font-size: 30px;
   margin: .5rem;
-  text-decoration: none;
   color: #f8f523;
   text-shadow: 2px 2px black;
   font-family: 'logo.cocolin';
   text-transform: uppercase;
   line-height: 80px;
+  text-decoration: none;
 }
 
 .menu ul {
@@ -74,8 +74,15 @@
 
 /* Banner */
 .banner-container {
-  display: inline;
+  display: table;
   text-align: center;
+  flex-wrap: wrap;
+  background: linear-gradient(rgba(240, 215, 187, 0.5), rgba(240, 215, 187, 0.2)),  
+  url(imagenes/contenido/Fanzines/bannerfanzine.jpg) no-repeat center center scroll;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
   flex-wrap: wrap;
 }
 
@@ -113,13 +120,6 @@
   text-transform: uppercase;
 }
 
-.characters-container h4 {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding-bottom: 3%;
- 
-}
 
 .carousel-caption {
   height: 50%;
@@ -134,8 +134,9 @@
 .carousel-click {
   text-decoration: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
+  font-family: 'Arial, Helvetica, sans-serif';
+  font-size: 20px;
+  text-transform: uppercase;
 } 
 
 .carousel-click:hover {
@@ -290,9 +291,10 @@ justify-content: center;
 
 .grid-characters {
   display: grid;
-  grid-template-columns: 150px 150px 150px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: auto auto auto;
-  grid-gap: 20px;  
+  grid-gap: 2rem;
+  margin: 20px;
 }
 
 /* FIN PAGE CHARACTERS */
@@ -335,6 +337,7 @@ justify-content: center;
   width: 100%;
   padding: 7px;
   font-size: 14px;
+  font-family: 'menu.cocolin';
   margin-top: 10px;
 }
 
@@ -359,6 +362,9 @@ justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
- 
+  .logo-header a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   
 }
