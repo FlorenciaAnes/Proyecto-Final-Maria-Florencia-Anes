@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Bingo de Bichos",
+    "age": 2,
+    "price": 14,
+    "image": "assets/memotest.jpg",
+    "description": "Bingo with bugs to learn by playing. From two years old. Up to 6 players",
+    "stock": 0
+  },
+  {
+    "id": 2,
+    "name": "Dominó de Emociones",
+    "age": 3,
+    "price": 12,
+    "image": "assets/emociones.jpg",
+    "description": "Play with emotions! A domino to have fun and teach children about the different emotions we can go through.The best way to learn is by playing. Number of dominoes: 55 large dominoes",
+    "stock": 2
+  },
+  {
+    "id": 3,
+    "name": "Dino Habitats",
+    "age": 3,
+    "price": 7,
+    "image": "assets/dinos.jpg",
+    "description": "It contains 12 dinosaurs of 3 x 3 cm (approx.) with three-dimensional sticker on the back and a fold-out habitat to stick them in.",
+    "stock": 3
+  }
+]
