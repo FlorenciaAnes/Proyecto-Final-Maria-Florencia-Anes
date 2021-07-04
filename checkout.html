@@ -65,7 +65,7 @@
     />
     <meta property="og:image" content="imagenes/" />
 
-    <title>Characters</title>
+    <title>Products</title>
   </head>
   <body>
     <!--Header-->
@@ -76,15 +76,92 @@
     <!--Fin Menu-->
     <!--Fin Header-->
 
-    <!--Characters-->
+    <!--Products-->
+
     <main>
-      <section class="characters-page">
+      <section>
         <div class="spacer"></div>
-        <div id="grid-characters" class="grid-characters"></div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 mb-5" id="checkoutFormSection">
+              <form id="checkoutForm">
+                <div class="row">
+                  <div class="mb-3 col">
+                    <label for="name" class="form-label">Name</label>
+                    <input class="form-control" name="name" />
+                  </div>
+                  <div class="mb-3 col">
+                    <label for="Surname" class="form-label">Surname</label>
+                    <input class="form-control" name="surname" />
+                  </div>
+                </div>
+                <div class="mb-3 col">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input class="form-control" name="phone" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    aria-describedby="emailHelp"
+                  />
+                  <div name="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="address" class="form-label">Address</label>
+                  <input class="form-control" name="address" />
+                </div>
+                <div class="mb-3">
+                  <label for="state" class="form-label">State</label>
+                  <input class="form-control" name="state" />
+                </div>
+                <div class="row">
+                  <div class="mb-3 col-8">
+                    <label for="city" class="form-label">City</label>
+                    <input class="form-control" name="city" />
+                  </div>
+                  <div class="mb-3 col-4">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input class="form-control" name="zip" />
+                  </div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="Check1" />
+                  <label class="form-check-label" for="check1"
+                    >Subscribe to our newsletter</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary">Buy</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <div class="container position-relative">
+                <ul id="checkoutSection" class="list-group"></ul>
+                <div
+                  class="
+                    bg-secondary
+                    text-light text-end
+                    p-3
+                    d-flex
+                    align-content-center
+                    justify-content-center
+                  "
+                >
+                  <h4>Total: $<span id="totalSection"></span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <!--Fin de Characters-->
+    <!--Fin de Products-->
     <!-- Footer -->
 
     <footer>
@@ -111,8 +188,8 @@
     <!-- JAVASCRIPT -->
     <script src="js/lib/jquery-3.6.0.min.js"></script>
     <script src="js/product.js"></script>
-    <script src="js/data.js"></script>
     <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
     <script src="js/components.js"></script>
     <script src="js/main.js"></script>
   </body>

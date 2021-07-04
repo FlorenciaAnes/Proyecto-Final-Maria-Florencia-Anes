@@ -30,6 +30,10 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
     <!--SEO-->
     <meta
@@ -73,22 +77,8 @@
   <body>
     <!--Header-->
     <!--Menu-->
-
-    <header id="header">
-      <nav class="header-container">
-        <div class="logo-header"><a href="index.html">Cocolin Press</a></div>
-        <div class="menu">
-          <ul>
-            <li><a href="#characters">Characters</a></li>
-            <li><a href="#fanzines">Fanzines</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="login.html">My Account</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
+    <div class="sidebar-wrapper"></div>
+    <header id="header"></header>
     <!--Fin Menu-->
     <!--Fin Header-->
 
@@ -206,13 +196,14 @@
       <section id="shop">
         <div class="grid-shop">
           <h1>ONLINE SHOP</h1>
-          <h5 id="totalSection" class="p-3"></h5>
-          <button type="button" class="btn btn-primary btnget">
-            Show Products List
-          </button>
           <div class="container-fluid">
             <div id="productSection" class="row"></div>
           </div>
+          <a href="shop.html">
+            <button type="button" class="btn btn-primary btnget">
+              SEE MORE PRODUCTS
+            </button>
+          </a>
         </div>
       </section>
 
@@ -252,25 +243,7 @@
     <!-- Footer -->
 
     <footer>
-      <div class="footer-container">
-        <p class="copyright">
-          Copyright @2021 | Designed with love by
-          <a href="index.html">Cocolin Press</a>
-        </p>
-
-        <ul class="social_footer_ul">
-          <li>
-            <a href="https://www.facebook.com/CocolinPress" target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/cocolinpress/" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
+      <div class="footer-container"></div>
     </footer>
 
     <!-- Fin Footer -->
@@ -294,9 +267,10 @@
     <!-- JAVASCRIPT -->
     <script src="js/lib/jquery-3.6.0.min.js"></script>
     <script src="js/lib/bootstrap.bundle.min.js"></script>
-    <script src="js/components.js"></script>
-    <script src="js/data.js"></script>
     <script src="js/product.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/components.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

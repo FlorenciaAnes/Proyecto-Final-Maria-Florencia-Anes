@@ -20,6 +20,9 @@
 
 /*INDEX*/
 
+body {
+  position: relative;
+}
 /* Header */
 /* Menu */
 
@@ -31,7 +34,7 @@
   position: fixed !important ;
   background-color: rgb(151, 151, 151);
   opacity: 0.7;
-  z-index: 99999;
+  z-index: 50;
   flex-wrap: wrap;
 }
 
@@ -52,10 +55,11 @@
 
 .menu ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .menu li {
@@ -175,6 +179,7 @@
 .grid-shop {
   display: flex;
   flex-flow: column;
+  align-items: center;
   background-color: rgb(247, 231, 247);
   padding-left: 7%;
   padding-top: 5%;
@@ -372,6 +377,35 @@
 .form-row button:hover {
   background-color: cornflowerblue;
 }
+/* SIDEBAR */
+.sidebar-wrapper {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 15, 44, 0.35);
+  z-index: 9998;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  background-color: rgb(58, 58, 57);
+  height: 100vh;
+  width: 30vw;
+  z-index: 9999;
+}
+#cartSection,
+#checkoutSection {
+  overflow-y: scroll;
+}
+.component-card {
+  color: black;
+}
+/* PRODUCT CARD Shop */
+.product-info {
+  opacity: 0;
+  transition: 1s;
+}
 
 @media screen and (max-width: 480px) {
 }
@@ -389,5 +423,11 @@
   }
   .carousel-click {
     font-size: 14px;
+  }
+  .sidebar {
+    width: 100vw;
+  }
+  .spacer {
+    height: 30vh;
   }
 }
