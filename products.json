@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Bingo de Bichos",
+    "age": 2,
+    "price": 14,
+    "image": "assets/memotest.jpg",
+    "description": "Bingo with bugs to learn by playing. From two years old. Up to 6 players",
+    "stock": 0
+  },
+  {
+    "id": 2,
+    "name": "Dominó de Emociones",
+    "age": 3,
+    "price": 12,
+    "image": "assets/emociones.jpg",
+    "description": "Play with emotions! A domino to have fun and teach children about the different emotions we can go through.The best way to learn is by playing. Number of dominoes: 55 large dominoes",
+    "stock": 2
+  },
+  {
+    "id": 3,
+    "name": "Dino Habitats",
+    "age": 3,
+    "price": 7,
+    "image": "assets/dinos.jpg",
+    "description": "It contains 12 dinosaurs of 3 x 3 cm (approx.) with three-dimensional sticker on the back and a fold-out habitat to stick them in.",
+    "stock": 3
+  },
+  {
+    "id": 4,
+    "name": "Atrapa Bichos",
+    "age": 3,
+    "price": 13,
+    "image": "assets/atrapa-bichos3.jpeg",
+    "description": "Who will collect more bugs? From clues reading by the parents, the child has to guess which insect it is and place it in a specific jar. With this game the child practices reading and learns about the world of insects.",
+    "stock": 5
+  },
+  {
+    "id": 5,
+    "name": "Memotest",
+    "age": 2,
+    "price": 11,
+    "image": "assets/memotest.jpg",
+    "description": "Memotest with 24 pieces. Cards with lovely illustrations to play with the little ones",
+    "stock": 2
+  },
+
+  {
+    "id": 6,
+    "name": "Dino Búsqueda",
+    "age": 3,
+    "price": 14,
+    "image": "assets/dino-busqueda3.jpeg",
+    "description": "Dinosaur hunt! You will found two games in one. The first one consists of listening for clues and finding the right dinosaur and the second one is about searching with the description cards. This game practises reading difficult words and visual search from a description.",
+    "stock": 7
+  },
+  {
+    "id": 7,
+    "name": "Set Colorear Dinosaurios",
+    "age": 2,
+    "price": 6,
+    "image": "assets/set-col-dino1.jpeg",
+    "description": "Colouring set with pencils. 6 pieces included.",
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "name": "Set imantado espacio",
+    "age": 2,
+    "price": 7,
+    "image": "assets/set-espacio1.jpeg",
+    "description": "Magnetic space set with 15 figures and a space background.",
+    "stock": 10
+  }
+]
